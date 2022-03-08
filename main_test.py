@@ -64,21 +64,24 @@ def sync_repo (repo: Repository, dir_path: dict):
             file.close ()
 
         if not filename in repo_list:
+            print (f"Creating file '{filename}'")
             repo.create_file (filename, commit_title, file_contents)
             
         else: 
+            print (f"Updating file '{filename}'")
             contents = repo.get_contents (filename)
             repo.update_file (filename, commit_title, file_contents, contents.sha)
 
     for filename in repo_list:
         if not filename in dir_list:
+            print (f"Deleting file '{filename}'")
             contents = repo.get_contents (filename)
             repo.delete_file (filename, commit_title, contents.sha)
 
 #==============================
 
 def main ():
-    api = Github ("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")
+    api = Github ("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")
     me = api.get_user ()
 
     repo = find_repo (me, "Smok1e/test-auto-commit")
