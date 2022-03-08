@@ -60,13 +60,26 @@ def list_dir (path: str) -> dict:
 
 #==============================
 
-def sync_repo (repo: Repository, dir_path: dict):
-    dir_contents  = list_dir (dir_path)
+def sync_repo (repo, dir_path: dict):
+    dir_contents  = list_dir  (dir_path)
+    repo_contents = list_repo (repo)
 
-    def recursive (dir: dict):
+    def recursive (repo: Repository, dir: dict):
+        dir_keys  = list (dir_contents.keys  ())
+        repo_keys = list (repo_contents.keys ())
+
+        while dir_keys:
+            current_dir_item = dir_contents[dir_keys.pop (0)]
+
+            if isinstance (current_dir_item, dict):
+                continue
+
+            if not 
+
+    def recursive (repo: Repository: dir: dict):
         keys = list (dir.keys ())
 
-        while dir:
+        while :
             contents = dir.pop (keys.pop (0))
 
             if isinstance (contents, dict):
@@ -81,7 +94,7 @@ def sync_repo (repo: Repository, dir_path: dict):
 
             repo.create_file (contents[2:], datetime.strftime (datetime.now (), "Auto commit at [%H:%M:%S]"), file_contents)
 
-    recursive (dir_contents)
+    recursive (repo, dir_contents)
 
 #==============================
 
