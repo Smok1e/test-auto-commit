@@ -78,7 +78,7 @@ def sync_repo (repo: Repository, dir_path: dict):
 #==============================
 
 def main ():
-    api = Github ("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")
+    api = Github ("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")
     me = api.get_user ()
 
     repo = find_repo (me, "Smok1e/test-auto-commit")
