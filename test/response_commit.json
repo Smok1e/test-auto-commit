@@ -1,0 +1,34 @@
+{
+    "sha": "d3660a19f35771caf42c6aa82cc12f99379ae466",
+    "node_id": "C_kwDOG9J4edoAKGQzNjYwYTE5ZjM1NzcxY2FmNDJjNmFhODJjYzEyZjk5Mzc5YWU0NjY",
+    "url": "https://api.github.com/repos/Smok1e/test-auto-commit/git/commits/d3660a19f35771caf42c6aa82cc12f99379ae466",
+    "html_url": "https://github.com/Smok1e/test-auto-commit/commit/d3660a19f35771caf42c6aa82cc12f99379ae466",
+    "author": {
+        "name": "Smok1e",
+        "email": "33802666+Smok1e@users.noreply.github.com",
+        "date": "2022-03-08T18:20:38Z"
+    },
+    "committer": {
+        "name": "Smok1e",
+        "email": "33802666+Smok1e@users.noreply.github.com",
+        "date": "2022-03-08T18:20:38Z"
+    },
+    "tree": {
+        "sha": "289dec1993886c4b65bc51207b3caa4833626cd3",
+        "url": "https://api.github.com/repos/Smok1e/test-auto-commit/git/trees/289dec1993886c4b65bc51207b3caa4833626cd3"
+    },
+    "message": "Auto commit at [21:20:39]",
+    "parents": [
+        {
+            "sha": "59e84c186a7f1d3febd87329b044c0908f9ca8a0",
+            "url": "https://api.github.com/repos/Smok1e/test-auto-commit/git/commits/59e84c186a7f1d3febd87329b044c0908f9ca8a0",
+            "html_url": "https://github.com/Smok1e/test-auto-commit/commit/59e84c186a7f1d3febd87329b044c0908f9ca8a0"
+        }
+    ],
+    "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+    }
+}
