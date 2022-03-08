@@ -1,0 +1,79 @@
+{
+    "sha": "d3660a19f35771caf42c6aa82cc12f99379ae466",
+    "node_id": "C_kwDOG9J4edoAKGQzNjYwYTE5ZjM1NzcxY2FmNDJjNmFhODJjYzEyZjk5Mzc5YWU0NjY",
+    "commit": {
+        "author": {
+            "name": "Smok1e",
+            "email": "33802666+Smok1e@users.noreply.github.com",
+            "date": "2022-03-08T18:20:38Z"
+        },
+        "committer": {
+            "name": "Smok1e",
+            "email": "33802666+Smok1e@users.noreply.github.com",
+            "date": "2022-03-08T18:20:38Z"
+        },
+        "message": "Auto commit at [21:20:39]",
+        "tree": {
+            "sha": "289dec1993886c4b65bc51207b3caa4833626cd3",
+            "url": "https://api.github.com/repos/Smok1e/test-auto-commit/git/trees/289dec1993886c4b65bc51207b3caa4833626cd3"
+        },
+        "url": "https://api.github.com/repos/Smok1e/test-auto-commit/git/commits/d3660a19f35771caf42c6aa82cc12f99379ae466",
+        "comment_count": 0,
+        "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null
+        }
+    },
+    "url": "https://api.github.com/repos/Smok1e/test-auto-commit/commits/d3660a19f35771caf42c6aa82cc12f99379ae466",
+    "html_url": "https://github.com/Smok1e/test-auto-commit/commit/d3660a19f35771caf42c6aa82cc12f99379ae466",
+    "comments_url": "https://api.github.com/repos/Smok1e/test-auto-commit/commits/d3660a19f35771caf42c6aa82cc12f99379ae466/comments",
+    "author": {
+        "login": "Smok1e",
+        "id": 33802666,
+        "node_id": "MDQ6VXNlcjMzODAyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33802666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Smok1e",
+        "html_url": "https://github.com/Smok1e",
+        "followers_url": "https://api.github.com/users/Smok1e/followers",
+        "following_url": "https://api.github.com/users/Smok1e/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Smok1e/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Smok1e/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Smok1e/subscriptions",
+        "organizations_url": "https://api.github.com/users/Smok1e/orgs",
+        "repos_url": "https://api.github.com/users/Smok1e/repos",
+        "events_url": "https://api.github.com/users/Smok1e/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Smok1e/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "committer": {
+        "login": "Smok1e",
+        "id": 33802666,
+        "node_id": "MDQ6VXNlcjMzODAyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33802666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Smok1e",
+        "html_url": "https://github.com/Smok1e",
+        "followers_url": "https://api.github.com/users/Smok1e/followers",
+        "following_url": "https://api.github.com/users/Smok1e/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Smok1e/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Smok1e/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Smok1e/subscriptions",
+        "organizations_url": "https://api.github.com/users/Smok1e/orgs",
+        "repos_url": "https://api.github.com/users/Smok1e/repos",
+        "events_url": "https://api.github.com/users/Smok1e/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Smok1e/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "parents": [
+        {
+            "sha": "59e84c186a7f1d3febd87329b044c0908f9ca8a0",
+            "url": "https://api.github.com/repos/Smok1e/test-auto-commit/commits/59e84c186a7f1d3febd87329b044c0908f9ca8a0",
+            "html_url": "https://github.com/Smok1e/test-auto-commit/commit/59e84c186a7f1d3febd87329b044c0908f9ca8a0"
+        }
+    ]
+}
