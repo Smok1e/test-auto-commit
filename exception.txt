@@ -1,7 +1,7 @@
 Traceback (most recent call last):
-  File "c:\Users\fedot\Desktop\pdz\test\main_test.py", line 112, in <module>
+  File "c:\Users\fedot\Desktop\pdz\test\main_test.py", line 111, in <module>
     try: main ()
-  File "c:\Users\fedot\Desktop\pdz\test\main_test.py", line 104, in main
+  File "c:\Users\fedot\Desktop\pdz\test\main_test.py", line 103, in main
     repo = find_repo (me, "Smok1e/test-auto-commit")
   File "c:\Users\fedot\Desktop\pdz\test\main_test.py", line 8, in find_repo
     for repo in api.get_repos ():

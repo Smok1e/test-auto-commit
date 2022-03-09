@@ -88,11 +88,10 @@ def sync_repo (repo: github.Repository, dir_path: dict):
 
     master_ref.edit (sha = commit.sha)
 
-    #for filename in repo_list:
-    #    if not filename in dir_list:
-    #        print (f"Deleting file '{filename}'")
-    #        contents = repo.get_contents (filename)
-    #        repo.delete_file (filename, commit_title, contents.sha)
+    for filename in repo_list:
+        if not filename in dir_list:
+            contents = repo.get_contents (filename)
+            repo.delete_file (filename, commit_title, contents.sha)
 
 #==============================
 
