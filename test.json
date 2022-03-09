@@ -1,0 +1,1 @@
+{"config.json": "./config.json", "main.py": "./main.py", "test": {"test.txt": "./test/test.txt", "test4": {"lol.py": "./test/test4/lol.py"}}, "test.json": "./test.json"}
