@@ -97,7 +97,8 @@ def sync_repo (repo: github.Repository, dir_path: dict):
 #==============================
 
 def main ():
-    api = github.Github ('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')
+    print ("Enter token: ", end = "")
+    api = github.Github (input ())
     me = api.get_user ()
 
     repo = find_repo (me, "Smok1e/test-auto-commit")

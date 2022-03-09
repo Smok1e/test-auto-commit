@@ -1,8 +1,18 @@
 Traceback (most recent call last):
-  File "c:\Users\fedot\Desktop\pdz\test\main_test.py", line 111, in <module>
+  File "c:\Users\fedot\Desktop\pdz\test\main_test.py", line 112, in <module>
     try: main ()
-  File "c:\Users\fedot\Desktop\pdz\test\main_test.py", line 107, in main
-    sync_repo (repo, "")
-  File "c:\Users\fedot\Desktop\pdz\test\main_test.py", line 87, in sync_repo
-    master_ref = repo.get_git_refs      ('heads/master')[0]
-TypeError: get_git_refs() takes 1 positional argument but 2 were given
+  File "c:\Users\fedot\Desktop\pdz\test\main_test.py", line 104, in main
+    repo = find_repo (me, "Smok1e/test-auto-commit")
+  File "c:\Users\fedot\Desktop\pdz\test\main_test.py", line 8, in find_repo
+    for repo in api.get_repos ():
+  File "C:\Users\fedot\AppData\Local\Programs\Python\Python39\lib\site-packages\github\PaginatedList.py", line 56, in __iter__
+    newElements = self._grow()
+  File "C:\Users\fedot\AppData\Local\Programs\Python\Python39\lib\site-packages\github\PaginatedList.py", line 67, in _grow
+    newElements = self._fetchNextPage()
+  File "C:\Users\fedot\AppData\Local\Programs\Python\Python39\lib\site-packages\github\PaginatedList.py", line 199, in _fetchNextPage
+    headers, data = self.__requester.requestJsonAndCheck(
+  File "C:\Users\fedot\AppData\Local\Programs\Python\Python39\lib\site-packages\github\Requester.py", line 353, in requestJsonAndCheck
+    return self.__check(
+  File "C:\Users\fedot\AppData\Local\Programs\Python\Python39\lib\site-packages\github\Requester.py", line 378, in __check
+    raise self.__createException(status, responseHeaders, output)
+github.GithubException.BadCredentialsException: 401 {"message": "Bad credentials", "documentation_url": "https://docs.github.com/rest"}
